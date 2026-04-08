@@ -1,1 +1,16 @@
+# Java (Compilação e Build)
+target/
+*.class
+out/
 
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Sistema e Logs
+.DS_Store
+Thumbs.db
+*.log
