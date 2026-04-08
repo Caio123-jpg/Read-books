@@ -2,15 +2,33 @@
 target/
 *.class
 out/
+*.jar
+*.war
 
 # IntelliJ IDEA
 .idea/
 *.iml
+*.iws
+*.ipr
+
+# Eclipse (maybe use)
+.classpath
+.project
+.settings/
 
 # VS Code
 .vscode/
+
+# Maven
+.m2/
+pom.xml.tag
+pom.xml.releaseBackup
 
 # Sistema e Logs
 .DS_Store
 Thumbs.db
 *.log
+
+# Ambiente
+.env
+.env.local
